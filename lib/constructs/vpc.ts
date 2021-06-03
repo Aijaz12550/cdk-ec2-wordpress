@@ -28,7 +28,8 @@ export class CustomVPC {
                     name: `${prefix}-isolated-`,
                     subnetType: ec2.SubnetType.ISOLATED // for RDS DB
                 }
-            ]
+            ],
+            
             
         })
 

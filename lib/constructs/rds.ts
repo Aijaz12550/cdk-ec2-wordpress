@@ -69,7 +69,7 @@ export class MySQLRdsInstance {
         deletionProtection: false,
         databaseName:"tciq_wordpress_instance",
         securityGroups: [ingressSecurityGroup],
-        instanceIdentifier: "tciq_wordpress"
+        instanceIdentifier: "tciqwordpress"
       }
     );
   }
